@@ -1,4 +1,4 @@
-FROM selenium/node-chrome
+FROM selenium/node-chrome:85.0
 
 RUN curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 RUN sudo apt-get install -y nodejs
